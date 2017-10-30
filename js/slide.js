@@ -40,8 +40,12 @@ var m = {
 	movimientoSlide: function(item) {
 
 		p.cajaSlide.style.left = item * -100 + "%";
-		console.log(item * -100 + "%");
 
+		for (var i = 0; i < p.paginacion.length; i++) {
+
+			p.paginacion[i].style.opacity = .5;
+
+		}
 
 	}
 
