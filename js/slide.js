@@ -6,7 +6,7 @@ var p = {
 
 	paginacion: document.querySelectorAll("#paginacion li"),
 	item: 0,
-	cajaSlide: document.querySelector("#slide ul")
+	cajaSlide: document.querySelector("#slide ul"),
 	animacionSilde: "slide",
 	imgSlide: document.querySelectorAll("#slide ul li")
 }
@@ -47,6 +47,10 @@ var m = {
 
 		}
 
+		p.paginacion[item].style.opacity = 1;
+
+		p.cajaSlide.style.transition = ".7s left ease-in-out";
+	
 	}
 
 }
