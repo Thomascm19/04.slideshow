@@ -1,2 +1,2 @@
 # slideshow
-Iinteractive resource slideshow
+Interactive resource slideshow
